@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Recursive:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    background-color: #3f3f3f;
+    
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #dad8d8;
+    margin: 20px 0;
+}
+
+form {
+    background: #7e7e7e;
+    padding: 130px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0 auto;
+    transition: background 0.3s;
+    
+}
+
+.checkbox{
+    color: #2d2d2d;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="radio"],
+input[type="checkbox"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    border: 2px solid #292929;
+}
+
+select {
+    height: 40px;
+}
+
+input[type="submit"] {
+    background: #2d2d2d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Add more styles and animations as needed */
